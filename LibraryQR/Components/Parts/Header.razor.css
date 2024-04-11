@@ -1,0 +1,25 @@
+.header {
+    position:fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #242038;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    height: 10vh;
+    width: 100vw;
+}
+
+.header a {
+    color: #e8e9f3;
+    font-family: 'Arial', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.header a:hover {
+    color: #e8e9f3;
+}
+
+
+
