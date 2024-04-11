@@ -1,2 +1,15 @@
 @page "/library"
 <PageTitle>Library</PageTitle>
+<div class="container">
+    @{
+        var i = 1;
+        foreach (var book in Books)
+        {
+            string src = "Pictures/"+i.ToString()+".jpg";
+            <div>
+                <img src="@src" alt="@src"/>
+            </div>
+            i++;
+        }   
+    }
+</div>

@@ -6,4 +6,12 @@
         <ImplicitUsings>enable</ImplicitUsings>
     </PropertyGroup>
 
+    <ItemGroup>
+      <None Include="wwwroot\Pictures\1.jpg" />
+      <None Include="wwwroot\Pictures\2.jpg" />
+      <None Include="wwwroot\Pictures\3.jpg" />
+      <None Include="wwwroot\Pictures\4.jpg" />
+      <None Include="wwwroot\Pictures\5.jpg" />
+    </ItemGroup>
+
 </Project>
