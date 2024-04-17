@@ -8,10 +8,10 @@
             string src = "Pictures/"+i+".jpg";
             string qrSrc = "QRCodes/"+i+".png";
             <div class="book-container">
-                <img src="@src" alt="@src" class="book-picture"/>
+                <div class="book-picture"><img src="@src" alt="@src"/></div>
                 <p class="title">Title: @book.Title</p>
                 <p class="author">Author: @book.Author</p>
-                <img src="@qrSrc" alt="@qrSrc" class="qr-code"/>
+                <div class="qr-code"><img src="@qrSrc" alt="@qrSrc" /></div>
             </div>
             i++;
         }   
