@@ -2,12 +2,12 @@ namespace LibraryQR.Logic;
 
 public class Book
 {
-    private string PicturePath { get; set; }
-    private string QRPath { get; set; }
+    public string Title { get; set; }
+    public string Author { get; set; }
 
-    public Book(string picturePath, string qrPath)
+    public Book(string title, string author)
     {
-        PicturePath = picturePath;
-        QRPath = qrPath;
+        Title = title;
+        Author = author;
     }
 }

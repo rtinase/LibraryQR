@@ -5,9 +5,13 @@
         var i = 1;
         foreach (var book in Books)
         {
-            string src = "Pictures/"+i.ToString()+".jpg";
-            <div>
-                <img src="@src" alt="@src"/>
+            string src = "Pictures/"+i+".jpg";
+            string qrSrc = "QRCodes/"+i+".png";
+            <div class="book-container">
+                <img src="@src" alt="@src" class="book-picture"/>
+                <p class="title">Title: @book.Title</p>
+                <p class="author">Author: @book.Author</p>
+                <img src="@qrSrc" alt="@qrSrc" class="qr-code"/>
             </div>
             i++;
         }   
